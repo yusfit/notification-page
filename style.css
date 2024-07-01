@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The body section */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    min-height: 100vh;
+    min-width: 1440px;
+    background-color: hsl(210, 60%, 98%);
+}
+
+/* The main section */
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 45%;
+}
+
+/* The header */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+header p:first-child{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* for each comments */
+.info{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+    gap: 15px;
+}
+
+img{
+    width: 8%;
+    float: left;
+}
+
+#count{
+    background-color: hsl(219, 85%, 26%);
+    padding: 0 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.webber{font-weight: 800;}
+
+small{color: hsl(219, 14%, 63%);}
+
+fieldset{border-radius: 5px; margin:0 3rem 2rem 7rem; padding: 1rem; color: hsl(219, 12%, 42%);}
+
+fieldset:hover{background-color: hsl(205, 33%, 90%); cursor: pointer;}
+
+.first{font-weight: 800; color: hsl(219, 12%, 42%);}
+
+.club{font-weight: 800; color: hsl(219, 85%, 26%);}
+
+#Gray:hover{ color: hsl(219, 85%, 26%); cursor: pointer;}
+
+#toggle:hover{color: hsl(219, 85%, 26%); cursor: pointer;}
+
+.unread{
+    background-color:  hsl(210, 60%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kimberly p{
+    width: 200%;
+}
+
+.kimberly .chess{
+    margin-left: 10rem;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Responsiveness */
+@media  screen and (max-width:800px) {
+    body{
+        font-size: 14px;
+        max-width: auto;
+        min-width: 375px;
+        background-color: white;
+    }
+
+    main{
+        width: 100%;
+        padding: 1rem 0;
+        gap: 5px;
+    }
+
+    .kimberly p{
+        width: 100%;
+    }
+
+    .kimberly .chess{
+        margin-left: -15px;
+    }
+
+    header{
+        align-items: center;
+    }
+
+    header p:first-child{
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+}
