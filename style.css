@@ -46,6 +46,7 @@ header p:first-child{
     margin-bottom: 20px;
     margin-left: 1rem;
     gap: 15px;
+    align-items: center;
 }
 
 img{
@@ -110,7 +111,7 @@ fieldset:hover{background-color: hsl(205, 33%, 90%); cursor: pointer;}
 
     main{
         width: 100%;
-        padding: 1rem 0;
+        padding: 1rem;
         gap: 5px;
     }
 
